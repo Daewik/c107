@@ -1,0 +1,50 @@
+
+<html>
+  <head>
+    <title>Sound Identification Web App</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+
+  <body>
+      <center>
+
+        <div class="bg-primary header">
+          <h1 >Sound Controlled Aliens</h1>
+
+          <h5>Note: Play different sounds like bell, clap, snap, keyboard tapping to make te aliens dance. </h5>
+        </div>
+       
+        <button id="start" onclick="start()" class="btn btn-danger">Start</button>
+        <br>
+        <label>I can hear: </label><span id="name"></span>
+        <br>
+        <label>Accuracy: </label><span id="accuracy"></span>
+        <br>
+        <img src="aliens-01.png" height="300" width="300" id="a1">
+        <img src="aliens-02.png" height="300" width="300" id="a2">
+        <img src="aliens-03.png" height="300" width="300" id="a3">
+        <img src="aliens-04.png" height="300" width="300" id="a4">
+
+        <div class="bg-primary footer">
+          <h4>Developed by: Daewik Kochhar</h4>
+        </div>
+
+      </center>
+<script src="main.js"></script>
+  </body>
+</html>
+
+
+
+
+
+
+
+
+ 
+
